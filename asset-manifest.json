@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/fachion_online/static/css/main.bc7f3d69.css",
+    "main.js": "/fachion_online/static/js/main.5d86ded9.js",
+    "static/media/logo.svg": "/fachion_online/static/media/logo.fa6ed5442940b2375841123db8c623be.svg",
+    "index.html": "/fachion_online/index.html",
+    "main.bc7f3d69.css.map": "/fachion_online/static/css/main.bc7f3d69.css.map",
+    "main.5d86ded9.js.map": "/fachion_online/static/js/main.5d86ded9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bc7f3d69.css",
+    "static/js/main.5d86ded9.js"
+  ]
+}
