@@ -1,12 +1,11 @@
-import logoHeader from "../../img/icons/logo.svg"
+import logoHeader from "../../img/icons/logo.svg";
 
-const Logo = () => {
+export const Logo = () => {
   return (
-  <div className="header__logo">
-    <img src={logoHeader} alt="logo" />
-    <span>FASHION</span>
-  </div>
-  )
+    <div className="header__logo">
+      <img src={logoHeader} alt="logo" />
+      <span>FASHION</span>
+    </div>
+  );
 };
  
-export default Logo;

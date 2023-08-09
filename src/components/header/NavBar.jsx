@@ -7,10 +7,10 @@ export const Navbar = () => {
         <li><a href="/favorites">Favorites</a></li>
         <li><a href="/lifestyle">Lifestyle</a></li>
         <li>
-          <span className="header_nav-btn">
-            <span>Sign</span>
-            <span>Up</span> 
-          </span>
+          <button className="header_nav-btn">
+            <p>Sign</p>
+            <p>Up</p> 
+          </button>
         </li>
       </ul>
     </nav>
