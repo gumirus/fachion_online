@@ -12,7 +12,6 @@
   background-color: var(--grey);
 }
 
-
 .promo__text {
   font-family: Poppins;
   font-size: 96px;
@@ -79,4 +78,97 @@
   line-height: normal;
   letter-spacing: -1.6px;
   width: 221px;
+}
+
+/* Стили для мобильных устройств */
+@media (max-width: 768px) {
+  .promo__content {
+    flex-direction: column-reverse;
+    /* Изменение порядка элементов */
+    border-radius: 0;
+    /* Убрать скругление углов */
+  }
+
+  .promo__img {
+    margin-top: 89px;
+    // padding: 20px 0;
+    /* Уменьшить верхний и нижний отступ */
+    padding-right: 0;
+    /* Убрать правый отступ */
+    text-align: center;
+    /* Центрирование картинки */
+  }
+
+  .promo__title {
+    font-size: 48px;
+    padding: 40px 20px 0;
+    text-align: center;
+  }
+
+  .promo__desc {
+    font-size: 24px;
+    padding: 0 700px;
+  }
+
+  .promo__btn-wrapper {
+    margin-left: 800px;
+    margin-bottom: 100px;
+  }
+
+  .promo__btn-wrapper::before {
+    content: none;
+  }
+
+  .promo__btn-wrapper p {
+    font-size: 24px;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+/* Стили для ноутбуков и более широких экранов */
+@media (min-width: 769px) {
+  .promo {
+    margin-bottom: 63px;
+  }
+
+  .promo__content {
+    border-radius: 59px;
+  }
+
+  .promo__img {
+    padding-top: 89px;
+    padding-right: 80px;
+  }
+
+  .promo__title {
+    font-size: 96px;
+    padding-bottom: 1rem;
+    padding-top: 77px;
+    padding-left: 120px;
+    padding-right: 240px;
+  }
+
+  .promo__desc {
+    font-size: 32px;
+    padding-left: 120px;
+  }
+
+  .promo__btn-wrapper {
+    margin-left: 350px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .promo__btn-wrapper::before {
+    content: "";
+    width: 190px;
+    height: 32px;
+    background-image: url("../../img/icons/decor-yellow.svg");
+  }
+
+  .promo__btn-wrapper p {
+    font-size: 30px;
+    width: 221px;
+  }
 }
