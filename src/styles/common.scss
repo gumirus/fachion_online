@@ -11,19 +11,3 @@
   padding: 0 30px;
 }
 
-.container {
-  max-width: 100%;
-  /* Максимальная ширина будет равна ширине экрана */
-  margin: 0 auto;
-  padding: 0 30px;
-  box-sizing: border-box;
-  /* Учтем внутренний padding в общей ширине */
-}
-
-/* Медиа-запрос для адаптации контейнера на более узких экранах */
-@media (max-width: 768px) {
-  .container {
-    padding: 0 15px;
-    /* Уменьшим внутренний padding для более узких экранов */
-  }
-}

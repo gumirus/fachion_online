@@ -39,7 +39,7 @@
   padding-bottom: 1rem;
   padding-top: 77px;
   padding-left: 120px;
-  padding-right: 240px;
+  padding-right: 100px;
 
   flex-shrink: 0;
 }
@@ -106,21 +106,18 @@
   }
 }
 
-@media (max-width: 768px) {
+// @media (max-width: 768px) {
 
-  .promo__title {
-    font-size: 28px;
-  }
+//   .promo__title {
+//     font-size: 28px;
+//   }
 
-  .promo__desc {
-    font-size: 18px;
-  }
+//   .promo__desc {
+//     font-size: 18px;
+//   }
 
-  .promo__content {
-    padding: 10px;
-  }
+//   .promo__content {
+//     padding: 10px;
+//   }
 
-}
-.promo__text{
-  text-align: center;
-}
+// }

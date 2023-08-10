@@ -8,7 +8,7 @@ const Promo = () => {
         <div className="promo__content">
           <div className="promo__text">
             <div className="promo__title">
-              ДАВАЙТЕ ПОЗНАКОМИМСЯ С УНИКАЛЬНОЙ ОДЕЖДОЙ
+              Давайте познакомимся с уникальной одеждой.
             </div>
             <div className="promo__desc">
               Живи ради Влиятельной и Инновационной моды!
