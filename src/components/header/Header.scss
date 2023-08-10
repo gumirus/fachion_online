@@ -69,10 +69,10 @@
 
 /* Стили для мобильных устройств */
 @media (max-width: 768px) {
-  // .header {
-  //   padding: 20px 0 30px;
-  //   /* Изменение отступов для мобильных устройств */
-  // }
+  .header {
+    padding: 20px 0 30px;
+    /* Изменение отступов для мобильных устройств */
+  }
 
   .header__row {
     flex-direction: column;
@@ -80,22 +80,22 @@
     align-items: center;
   }
 
-  // .header__logo span {
-  //   font-size: 28px;
-  //   /* Уменьшение размера шрифта для мобильных устройств */
-  // }
+  .header__logo span {
+    font-size: 28px;
+    /* Уменьшение размера шрифта для мобильных устройств */
+  }
 
-  // .header__nav {
-  //   font-size: 18px;
-  //   /* Уменьшение размера шрифта для мобильных устройств */
-  // }
+  .header__nav {
+    font-size: 18px;
+    /* Уменьшение размера шрифта для мобильных устройств */
+  }
 
-  // .header__nav ul {
-  //   flex-direction: column;
-  //   /* Колонки для мобильных устройств */
-  //   align-items: center;
-  //   row-gap: 20px;
-  // }
+  .header__nav ul {
+    flex-direction: column;
+    /* Колонки для мобильных устройств */
+    align-items: center;
+    row-gap: 20px;
+  }
 
   .header_nav-btn {
     width: 100%;
