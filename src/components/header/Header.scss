@@ -64,11 +64,11 @@
 }
 
 .header_nav-btn p {
-  margin-right: 1rem;
+  margin-right: 0.5rem;
 }
 
 /* Стили для мобильных устройств */
-@media (max-width: 768px) {
+@media (max-width: 48rem) {
   .header {
     padding: 20px 0 30px;
     /* Изменение отступов для мобильных устройств */
@@ -107,7 +107,7 @@
 }
 
 /* Стили для ноутбуков и более широких экранов */
-@media (min-width: 769px) {
+@media (min-width: 1200px) {
   .header {
     padding: 46px 0 56px;
   }

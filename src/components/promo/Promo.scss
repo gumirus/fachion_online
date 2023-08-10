@@ -55,7 +55,8 @@
 
 .promo__btn-wrapper {
   margin-left: 350px;
-  margin-top: 20px;
+  margin-right: 140px;
+  margin-top: 50px;
   margin-bottom: 20px;
   border-radius: 10px;
   background: var(--black);
@@ -75,14 +76,17 @@
   width: 221px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
   .promo__content {
-      flex-direction: column-reverse;
-    }
+    flex-direction: column-reverse;
+  }
+
   .promo__text,
   .promo__title,
-  .promo__desc,
-  .promo__btn-wrapper {
+  .promo__desc
+  {
+    font-size: 30px;
+    /* Настройте размер шрифта по вашему усмотрению */
     padding: 20px;
     text-align: center;
     position: static;
@@ -92,6 +96,28 @@
     padding: 0;
     max-width: 100%;
     text-align: center;
-    margin-top: 0;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 70px;
   }
+  .promo__btn-wrapper {
+   margin-left: auto;
+  margin-right: auto;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .promo__title {
+    font-size: 28px;
+  }
+
+  .promo__desc {
+    font-size: 18px;
+  }
+
+  .promo__content {
+    padding: 10px;
+  }
+
 }
