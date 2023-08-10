@@ -8,13 +8,13 @@ const Promo = () => {
         <div className="promo__content">
           <div className="promo__text">
             <div className="promo__title">
-              LET’S EXPLORE UNIQUE CLOTHES.
+              ДАВАЙТЕ ПОЗНАКОМИМСЯ С УНИКАЛЬНОЙ ОДЕЖДОЙ
             </div>
             <div className="promo__desc">
-              Live for Influential and Innovative fashion!
+              Живи ради Влиятельной и Инновационной моды!
             </div>
             <button className="promo__btn-wrapper">
-              <p>Shop Now</p>
+              <p>купить сейчас</p>
             </button>
           </div>
           <div className="promo__img">
