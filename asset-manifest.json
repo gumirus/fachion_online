@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/fachion_online/static/css/main.2e353ad2.css",
-    "main.js": "/fachion_online/static/js/main.3fe7bf18.js",
+    "main.css": "/fachion_online/static/css/main.3f26dc4c.css",
+    "main.js": "/fachion_online/static/js/main.825a7d57.js",
     "static/media/header-img.jpg": "/fachion_online/static/media/header-img.3266b145a803ea6064bc.jpg",
     "static/media/logo.svg": "/fachion_online/static/media/logo.fa6ed5442940b2375841123db8c623be.svg",
     "index.html": "/fachion_online/index.html",
-    "main.2e353ad2.css.map": "/fachion_online/static/css/main.2e353ad2.css.map",
-    "main.3fe7bf18.js.map": "/fachion_online/static/js/main.3fe7bf18.js.map"
+    "static/media/decor-yellow.svg": "/fachion_online/static/media/decor-yellow.a14a51327547871fd595.svg",
+    "main.3f26dc4c.css.map": "/fachion_online/static/css/main.3f26dc4c.css.map",
+    "main.825a7d57.js.map": "/fachion_online/static/js/main.825a7d57.js.map"
   },
   "entrypoints": [
-    "static/css/main.2e353ad2.css",
-    "static/js/main.3fe7bf18.js"
+    "static/css/main.3f26dc4c.css",
+    "static/js/main.825a7d57.js"
   ]
 }
