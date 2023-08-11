@@ -11,7 +11,7 @@ const Promo = () => {
               <span className="titleImg">
                 <p>LET’S</p>
               </span>
-               <p> EXPLORE</p>
+              <p> EXPLORE</p>
               <span className="titleImgYellow">
                  <p> UNIQUE</p>
               </span>

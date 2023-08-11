@@ -22,9 +22,9 @@ function NavBar() {
             </ul>
           </Nav.Link>
         </Nav>
-      </Navbar.Collapse>
-    </Navbar>
+</Navbar.Collapse>
+    </Navbar> 
   );
 }
 
-export default NavBar;
+export default NavBar; 
