@@ -1,12 +1,15 @@
 import Header from "./components/header/Header";
 import Promo from "./components/promo/Promo";
+import { BrowserRouter as Router } from "react-router-dom";
 
 function App() {
   return (
-    <div>
-      <Header />
-      <Promo />
-    </div>
+    <Router>
+      <div>
+        <Header />
+        <Promo />
+      </div>
+    </Router>
   );
 }
 

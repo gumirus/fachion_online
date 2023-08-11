@@ -1,5 +1,6 @@
+import React from "react";
 import { Logo } from "./Logo";
-import { Navbar } from "./NavBar";
+import NavBar from "./NavBar";
 import "./Header.scss";
 
 const Header = () => {
@@ -8,7 +9,7 @@ const Header = () => {
       <div className="container">
         <div className="header__row">
           <Logo/>
-          <Navbar/>
+          <NavBar/>
         </div>
       </div>
     </header>

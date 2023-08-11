@@ -2,13 +2,13 @@
 @import "../../styles/reset.scss";
 
 .promo {
-  margin-bottom: 63px;
+  margin-bottom: 3.688rem;
 }
 
 .promo__content {
   display: flex;
-  column-gap: 24px;
-  border-radius: 59px;
+  column-gap: 3.688rem;
+  border-radius: 3.688rem;
   background-color: var(--grey);
   position: relative;
   overflow: hidden;
@@ -16,7 +16,7 @@
 
 .promo__text {
   font-family: Poppins;
-  font-size: 96px;
+  font-size: 6rem;
   font-style: normal;
   font-weight: 900;
   line-height: 125%;
@@ -24,59 +24,121 @@
 }
 
 .promo__img {
-  padding-top: 68px;
-  padding-right: 80px;
+  padding-top: 4.25rem;
+  padding-right: 5rem;
   flex-shrink: 0;
-  // max-width: 60%;
+  max-width: 50%;
+  // margin-left: 120px;
 }
 
 .promo__title {
+  display: block;
+  color: var(--black);
   font-family: Poppins;
-  font-size: 96px;
+  font-size: 6rem;
   font-style: normal;
   font-weight: 900;
-  line-height: 120%;
-  padding-bottom: 1rem;
-  padding-top: 77px;
-  padding-left: 120px;
-  padding-right: 100px;
+  line-height: 7.5rem;
+  flex-shrink: 0;
+  padding-top: 4.813rem;
+  padding-left: 7.5rem;
+  padding-right: 6.25rem;
+  // width: 29.625rem;
+  // height: 29.5625rem;
+}
 
+.titleImg {
+ position: relative;
+ display: inline-block;
+}
+
+.titleImg p {
+ position: relative;
+ z-index:1;
+}
+
+.titleImg::before {
+  content: "";
+  display: inline-flex;
+  position: absolute;
+  top: -1px;
+  bottom: -1px;
+  left: -60px;
+  right: -100px;
+  background-color: var(--white);
+  transform: rotate(-2deg);
+}
+
+// .titleImgYellow {
+//   position: relative;
+// }
+.titleImgYellow {
+  position: relative;
+  display: inline-block;
+}
+
+.titleImgYellow p {
+  position: relative;
+  z-index: 1;
+}
+
+.titleImgYellow::before {
+  content: "";
+  display: inline-flex;
+  position: absolute;
+  top: -1px;
+  bottom: -1px;
+  left: -20px;
+  right: -60px;
+  background-color: var(--yellow);
+  transform: rotate(-2deg);
   flex-shrink: 0;
 }
 
 .promo__desc {
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: 400;
   line-height: normal;
-  letter-spacing: -1.6px;
-  height: 58px;
-  padding-left: 120px;
+  letter-spacing: -0.1rem;
+  height: 3.625rem;
+  padding-left: 7.5rem;
 }
 
 .promo__btn-wrapper {
-  margin-left: 350px;
-  margin-right: 140px;
-  margin-top: 50px;
-  margin-bottom: 20px;
-  border-radius: 10px;
-  background: var(--black);
-  width: 221px;
-  height: 82px;
-  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 2.125rem;
+}
+
+.promo__btn-wrapper::before {
+  content: "";
+  display: inline-flex;
+  align-items: center;
+  background-image: url("../../img/icons/decor-yellow.svg");
+  margin-left: 6.875rem;
+  gap: 2.125rem;
+  width: 11.875rem;
+  height: 2rem;
 }
 
 .promo__btn-wrapper p {
   color: var(--white);
-  font-size: 30px;
+  text-align: center;
+  padding: 0.813rem 1.375rem 1.063rem;
+  font-size: 1.875rem;
   font-family: Poppins;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  letter-spacing: -1.6px;
-  width: 221px;
+  letter-spacing: -0.1rem;
+  border-radius: 0.62rem;
+  background: var(--black);
+  width: 13.813rem;
+  height: 5.125rem;
+  flex-shrink: 0;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 75rem) {
   .promo__content {
     flex-direction: column-reverse;
   }
@@ -85,39 +147,54 @@
   .promo__title,
   .promo__desc
   {
-    font-size: 30px;
+    font-size: 3.5rem;
     /* Настройте размер шрифта по вашему усмотрению */
-    padding: 20px;
+    // padding: 1.2rem;
     text-align: center;
-    position: static;
+    // position: static;
   }
 
   .promo__img {
     padding: 0;
     max-width: 100%;
     text-align: center;
-    margin-top: 40px;
-    margin-left: 20px;
-    margin-right: 70px;
+    margin-top: 2.5rem;
+    margin-left: 1.2rem;
+    margin-right: 4.7rem;
   }
   .promo__btn-wrapper {
-   margin-left: auto;
-  margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6.5rem;
+    max-width: 90%;
+    width: auto;
+    text-align: center;
+  }
+  .promo__btn-wrapper::before {
+    content: "";
+    display: inline-flex;
+    align-items: center;
+    background-image: url("../../img/icons/decor-yellow.svg");
+    background-size: contain;
+    margin-left: 1rem;
+    gap: 1rem;
+    width: 3rem;
+    height: 2rem;
   }
 }
 
-// @media (max-width: 768px) {
+@media (max-width: 48rem) {
 
-//   .promo__title {
-//     font-size: 28px;
-//   }
+  .promo__title {
+    font-size: 3.2rem;
+  }
 
-//   .promo__desc {
-//     font-size: 18px;
-//   }
+  .promo__desc {
+    font-size: 1.5rem;
+  }
 
-//   .promo__content {
-//     padding: 10px;
-//   }
+  .promo__content {
+    padding: 0.625rem;
+  }
 
-// }
+}

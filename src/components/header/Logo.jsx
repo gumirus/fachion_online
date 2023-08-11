@@ -4,7 +4,7 @@ export const Logo = () => {
   return (
     <div className="header__logo">
       <img src={logoHeader} alt="logo" />
-      <span>МОДА</span>
+      <span>FASHION</span>
     </div>
   );
 };

@@ -3,45 +3,47 @@
 
 
 .header {
-  padding: 46px 0 56px;
+  padding: 2.875rem 0 3.5rem;
 }
 
 .header__row {
+  font-family: Poppins;
   display: flex;
-  column-gap: 40px;
+  column-gap: 2.5rem;
   align-items: center;
   justify-content: space-between;
 }
 
 .header__logo {
+  font-family: Poppins;
   display: flex;
   align-items: center;
-  column-gap: 13px;
+  column-gap: 0.813rem;
 }
 
 .header__logo span {
   color: var(--black);
   font-family: Poppins;
-  font-size: 40px;
+  font-size: 2.5rem;
   font-style: normal;
   font-weight: 900;
   line-height: normal;
-  letter-spacing: 1.2px;
+  letter-spacing: 0.075rem;
 }
 
 .header__nav {
   font-family: Poppins;
   font-weight: 500;
-  font-size: 22px;
-  line-height: 33px;
+  font-size: 1.375rem;
+  line-height: 2.063rem;
   letter-spacing: 0.01em;
+  align-items: center;
 }
 
 .header__nav ul {
- 
   display: flex;
   align-items: center;
-  column-gap: 65px;
+  column-gap: 4.063;
 }
 
 .header__nav a {
@@ -49,14 +51,15 @@
 }
 
 .header_nav-btn {
+  font-family: Poppins;
   align-items: center;   
   color: var(--white);
   background-color: var(--black);
-  width: 150px;
-  padding: 13px 22px 17px;
-  border-radius: 7px;
+  width: 9.375rem;
+  padding: 0.813rem 1.375rem 1.063rem;
+  border-radius: 0.438rem;
   font-weight: 500;
-  font-size: 24px;
+  font-size: 1.5rem;
   line-height: 1.5;
   letter-spacing: -0.03em;
   text-align: center;
@@ -65,73 +68,4 @@
 
 .header_nav-btn p {
   margin-right: 0.5rem;
-}
-
-/* Стили для мобильных устройств */
-@media (max-width: 48rem) {
-  .header {
-    padding: 20px 0 30px;
-    /* Изменение отступов для мобильных устройств */
-  }
-
-  .header__row {
-    flex-direction: column;
-    /* Колонки для мобильных устройств */
-    align-items: center;
-  }
-
-  .header__logo span {
-    font-size: 28px;
-    /* Уменьшение размера шрифта для мобильных устройств */
-  }
-
-  .header__nav {
-    font-size: 18px;
-    /* Уменьшение размера шрифта для мобильных устройств */
-  }
-
-  .header__nav ul {
-    flex-direction: column;
-    /* Колонки для мобильных устройств */
-    align-items: center;
-    row-gap: 20px;
-  }
-
-  .header_nav-btn {
-    width: 100%;
-    /* Расширение кнопки на всю ширину */
-    margin-top: 20px;
-    /* Дополнительный отступ сверху */
-    font-size: 20px;
-  }
-}
-
-/* Стили для ноутбуков и более широких экранов */
-@media (min-width: 1200px) {
-  .header {
-    padding: 46px 0 56px;
-  }
-
-  .header__row {
-    flex-direction: row;
-    /* Возврат к рядам для более широких экранов */
-  }
-
-  .header__logo span {
-    font-size: 40px;
-  }
-
-  .header__nav {
-    font-size: 22px;
-  }
-
-  .header__nav ul {
-    flex-direction: row;
-    /* Возврат к рядам для более широких экранов */
-    row-gap: 0;
-  }
-
-  .header_nav-btn {
-    font-size: 24px;
-  }
 }
