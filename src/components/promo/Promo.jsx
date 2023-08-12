@@ -1,4 +1,5 @@
 import "./Promo.scss"
+import { Button } from 'react-bootstrap';
 import firstPromo from "../../img/images/header-img.jpg"
 
 const Promo = () => {
@@ -20,9 +21,9 @@ const Promo = () => {
             <div className="promo__desc">
               Live for Influential and Innovative fashion!
             </div>
-            <button className="promo__btn-wrapper">
+            <Button variant="custom" className="promo__btn-wrapper">
               <p>Shop Now</p>
-            </button>
+            </Button>
           </div>
           <div className="promo__img">
             <img src={firstPromo}

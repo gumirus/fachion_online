@@ -1,4 +1,5 @@
 import React from "react";
+import { Button } from 'react-bootstrap';
 import { Navbar, Nav } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
@@ -15,14 +16,14 @@ function NavBar() {
           <Nav.Link>
             <ul>
               <li>
-                <button className="header_nav-btn">
+                <Button variant="custom" className="header_nav-btn">
                   <p>SIGN UP</p>
-                </button>
+                </Button>
               </li>
             </ul>
           </Nav.Link>
         </Nav>
-</Navbar.Collapse>
+      </Navbar.Collapse>
     </Navbar> 
   );
 }

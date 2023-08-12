@@ -1,6 +1,7 @@
+import Catalogue from "./components/header/Catalogue";
 import Header from "./components/header/Header";
 import Promo from "./components/promo/Promo";
-import { BrowserRouter as Router } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
@@ -8,6 +9,10 @@ function App() {
       <div>
         <Header />
         <Promo />
+        <Routes>
+          <Route path="/catalog" element={<Catalogue />} />
+          {/* ...другие маршруты */}
+        </Routes>
       </div>
     </Router>
   );

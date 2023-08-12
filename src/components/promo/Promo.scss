@@ -101,41 +101,77 @@
   padding-left: 7.5rem;
 }
 
+// .promo__btn-wrapper {
+//   display: inline-flex;
+//   align-items: center;
+//   gap: 2.125rem;
+// }
+
+// .promo__btn-wrapper::before {
+//   content: "";
+//   display: inline-flex;
+//   align-items: center;
+//   background-image: url("../../img/icons/decor-yellow.svg");
+//   margin-left: 6.875rem;
+//   gap: 2.125rem;
+//   width: 11.875rem;
+//   height: 2rem;
+// }
+
+// .promo__btn-wrapper p {
+//   color: var(--white);
+//   text-align: center;
+//   padding: 0.813rem 1.375rem 1.063rem;
+//   font-size: 1.875rem;
+//   font-family: Poppins;
+//   font-style: normal;
+//   font-weight: 400;
+//   line-height: normal;
+//   letter-spacing: -0.1rem;
+//   border-radius: 0.62rem;
+//   background: var(--black);
+//   width: 13.813rem;
+//   height: 5.125rem;
+//   flex-shrink: 0;
+// }
+
+/* common.scss */
+
 .promo__btn-wrapper {
   display: inline-flex;
   align-items: center;
   gap: 2.125rem;
+
+  &::before {
+    content: "";
+    display: inline-flex;
+    align-items: center;
+    background-image: url("../../img/icons/decor-yellow.svg");
+    margin-left: 6.875rem;
+    gap: 2.125rem;
+    width: 11.875rem;
+    height: 2rem;
+  }
+
+  p {
+    color: var(--white);
+    text-align: center;
+    padding: 0.813rem 1.375rem 1.063rem;
+    font-size: 1.875rem;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.1rem;
+    border-radius: 0.62rem;
+    background: var(--black);
+    width: 13.813rem;
+    height: 5.125rem;
+    flex-shrink: 0;
+  }
 }
 
-.promo__btn-wrapper::before {
-  content: "";
-  display: inline-flex;
-  align-items: center;
-  background-image: url("../../img/icons/decor-yellow.svg");
-  margin-left: 6.875rem;
-  gap: 2.125rem;
-  width: 11.875rem;
-  height: 2rem;
-}
-
-.promo__btn-wrapper p {
-  color: var(--white);
-  text-align: center;
-  padding: 0.813rem 1.375rem 1.063rem;
-  font-size: 1.875rem;
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  letter-spacing: -0.1rem;
-  border-radius: 0.62rem;
-  background: var(--black);
-  width: 13.813rem;
-  height: 5.125rem;
-  flex-shrink: 0;
-}
-
-@media (max-width: 75rem) {
+@media (max-width: 1800px) {
   .promo__content {
     flex-direction: column-reverse;
   }
@@ -181,7 +217,7 @@
   }
 }
 
-@media (max-width: 48rem) {
+@media (max-width: 1084px) {
 
   .promo__title {
     font-size: 3.2rem;
