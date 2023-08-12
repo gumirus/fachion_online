@@ -9,7 +9,7 @@ const Header = () => {
       <div className="container">
         <div className="header__row">
           <Logo/>
-          <NavBar/>
+          <NavBar />
         </div>
       </div>
     </header>
