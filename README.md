@@ -1,1 +1,1 @@
-* # [Магазин-Мода](https://gumirus.github.io/fachion_online/)
+* # [Магазин-Мода(FASHION)](https://gumirus.github.io/fachion_online/)
