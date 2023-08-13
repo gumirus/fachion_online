@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/fachion_online/static/css/main.43f80906.css",
-    "main.js": "/fachion_online/static/js/main.d755309e.js",
+    "main.js": "/fachion_online/static/js/main.98502649.js",
     "static/media/header-img.jpg": "/fachion_online/static/media/header-img.3266b145a803ea6064bc.jpg",
     "static/media/cat-03.jpg": "/fachion_online/static/media/cat-03.eb55f780a8fbbaf39b98.jpg",
     "static/media/cat-01.jpg": "/fachion_online/static/media/cat-01.c4e2270f3eab9f7477cf.jpg",
@@ -13,10 +13,10 @@
     "static/media/arrow.svg": "/fachion_online/static/media/arrow.00242d31254498b51cd7f1897c5dcfdb.svg",
     "static/media/decor-yellow.svg": "/fachion_online/static/media/decor-yellow.c11204fe51937e179081.svg",
     "main.43f80906.css.map": "/fachion_online/static/css/main.43f80906.css.map",
-    "main.d755309e.js.map": "/fachion_online/static/js/main.d755309e.js.map"
+    "main.98502649.js.map": "/fachion_online/static/js/main.98502649.js.map"
   },
   "entrypoints": [
     "static/css/main.43f80906.css",
-    "static/js/main.d755309e.js"
+    "static/js/main.98502649.js"
   ]
 }
