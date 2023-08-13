@@ -3,6 +3,7 @@
   --yellow: #EBD96B;
   --white: #FEFEFE;
   --grey: #F4F6F5;
+  --greyDark: #7F7F7F;
 }
 
 .container {
@@ -15,4 +16,31 @@
 
 .container.small {
   transform: scale(0.8);
+}
+
+.title-2 {
+  position: relative;
+  color: var(--black);
+  font-family: Poppins;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 3.125rem;
+  letter-spacing: 0.18rem;
+  display: inline-block;
+}
+
+.title-2::after {
+  content: "";
+  position: absolute;
+  
+  right: 0rem;
+  bottom: 0rem;
+  // top: 0rem;
+  width: 11.875rem;
+  height: 2rem;
+
+  background-image: url(../img/icons/decor-yellow.svg);
+  background-repeat: no-repeat;
+  z-index:-1;
 }

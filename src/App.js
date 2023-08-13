@@ -1,3 +1,4 @@
+import Arrivals from "./components/arrivals/Arrivals";
 import Brands from "./components/brands/Brands";
 import Catalogue from "./components/header/Catalogue";
 import Header from "./components/header/Header";
@@ -11,6 +12,7 @@ function App() {
         <Header />
         <Promo />
         <Brands />
+        <Arrivals />
         <Routes>
           <Route path="/catalog" element={<Catalogue />} />
           {/* ...другие маршруты */}

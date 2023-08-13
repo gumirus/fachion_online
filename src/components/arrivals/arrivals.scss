@@ -1,0 +1,17 @@
+@import "../../styles/common.scss";
+
+.sectionArrivals {
+  padding-top:7.5rem;
+  padding-bottom: 10.12rem;
+}
+
+.arrivalsHeader {
+  margin-bottom: 6.25rem;
+
+}
+
+.arrivalsCards {
+    column-gap: 1.875rem;
+      display: flex;
+     justify-content: space-between;
+}

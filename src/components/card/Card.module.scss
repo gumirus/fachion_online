@@ -1,0 +1,87 @@
+@import "../../styles/common.scss";
+@import "../../styles/reset.scss";
+
+.card {
+  position: relative;
+  // cursor: pointer;
+}
+
+.card:hover .card__img {
+  animation: opacity 0.2s ease-in-out;
+}
+
+@keyframes opacity {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.cardIcon {
+  position: relative;
+}
+
+.card:hover .cardIcon {
+  animation: slide 0.5s ease-in-out;
+}
+
+@keyframes slide {
+  0% {
+    left: 0;
+  }
+  
+  50% {
+    left: -1.25rem;
+  }
+
+  100% {
+    left: 0;
+  }
+}
+
+.cardLink{
+  position: absolute;
+  left: 0rem;
+  top: 0rem;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.card__img {
+  margin-bottom: 2.375rem;
+  border-radius: 1.25rem;
+  color: var(--greyDark);
+}
+
+.cardBody {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  gap: 8.1875rem;
+}
+
+.cardTitle {
+  color: var(--black);
+  font-family: Poppins;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 3.125rem;
+  letter-spacing: -0.08rem;
+}
+
+.cardMuted {
+  color: var(--greyDark);
+  font-family: Poppins;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 3.125rem;
+  letter-spacing: -0.06rem;
+}
