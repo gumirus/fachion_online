@@ -2,7 +2,7 @@ import styles from "./Card.module.scss"
 // import cardImg from "../../img/categories/cat-01.jpg"
 import arrowImg from "../../img/icons/arrow.svg"
 
-const Cards = (props) => { 
+const Cards = ({ title, img }) => { 
   
 // const { title, img } = props;
 
@@ -11,13 +11,13 @@ const Cards = (props) => {
       <a href="#!" className={styles.cardLink}> </a>
       <img
         className={styles.card__img}
-        src={props.img}
+        src={img}
         alt="category..."
       />
       <div className={styles.cardBody}>
         <div className={styles.cardText}>
           <div className={styles.cardTitle}>
-            {props.title}
+            {title}
           </div>
           <div className={styles.cardMuted}>
             Explore Now!
